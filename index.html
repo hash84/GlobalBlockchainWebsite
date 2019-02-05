@@ -255,7 +255,7 @@
 				   <!-- <p>If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for as low as $.17 each.</p> -->
 			   </div>
 			   <div class="row team_inner">
-				   <div class="col-lg-2 col-sm-6">
+				   <div class="col-lg-2  col-sm-6">
 					   <div class="team_item">
 						   <div class="team_img">
 							   <img class="img-fluid speaker-img" src="img/speaker/dhiren.jpg" alt="">
@@ -399,9 +399,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col text-center">
-					<div class="pricing_section_title">Registration</div>
-					<br><br>
-					<div class="pricing_item_content pricing_section_title">Limited Seats Available</div>
+					<div class="pricing_section_title">Registration<br>Limited Seats Available</div>
+					
+					<div class="pricing_item_content pricing_section_title"></div>
 				</div>
 			</div>
 			<div class="row pricing_row">
@@ -411,7 +411,7 @@
 					<!-- <div class="pricing_section_title" > LIMITED SEATS AVAILABLE</div> -->
 					<div class="pricing_item pricing_item_mid">
 						<div class="pricing_item_content">
-							<div class="pricing_level">Industry and Other participants</div>
+							<div class="pricing_level">Industry and Other participants</div><br>
 							<h3>INR 10,000 </h3>
 						</div>
 					</div>
@@ -422,6 +422,7 @@
 					<div class="pricing_item pricing_item_mid">
 						<div class="pricing_item_content">
 							<div class="pricing_level">Academia and Government participants</div>
+							<br>
 							<h3>INR 4,000 </h3>
 						</div>
 					</div>
@@ -430,7 +431,7 @@
 					<div class="pricing_item pricing_item_mid">
 						<div class="pricing_item_content">
 							<div class="pricing_level">Student participants</div>
-							<!-- LImited Scholarships available -->
+							Limited Scholarships available
 							<h3>INR 1,000 </h3>
 						</div>
 					</div>
@@ -609,7 +610,7 @@
 				<div class="row">
 
 					<!-- Footer Column -->
-					<div class="col-lg-4 footer_col">
+					<div class="col-lg-3 footer_col">
 						<div class="footer_about">
 							<div>
 								<a href="#">
@@ -629,7 +630,85 @@
 							</div> -->
 						</div>
 					</div>
-					<div  class="footer_extra_right ml-lg-auto text-lg-Right">
+					<!-- <div>Organizing Committe:</div>div -->
+					<div class="col-lg-2 footer_col">
+						<div class="footer_links">
+							<ul>Organizing Committe:</ul><br>
+							<ul>
+								<li>Prof. Faruk Kazi</li>
+								<li>Prof. Sunil Bhirud</li>
+								<li>Prof. Rohin Daruwala</li>
+								<li>Prof. M Chakrabarti</li>
+								<li>Dr. S Mahske</li>
+								<li>Dr. Mohini Billore</li>
+							</ul>
+							<br>
+							<br>
+							<ul>Travel and Security</ul><br>
+							<ul>
+								<li>Sangram Patil</li>
+								<li>Fletcher Patel</li> 
+							</ul>
+
+						</div>
+					</div>
+
+					<!-- Footer Column -->
+					<div class="col-lg-2 footer_col">
+						<div class="footer_links">
+							<ul>Technical:</ul><br>
+							<ul>
+								<li>Sanket Shanbag</li>
+								<li>Keivan Shah</li>
+								<li>Bala Karthikeyan</li>
+								<li>Yash Jain</li>
+							</ul>
+							<br><br>
+							<br><br>
+							<br>
+							<ul>Website:</ul><br>
+							<ul>
+								<li>Hrishikesh Suslade</li>
+								<li>Jayant Rane</li>
+								<li>Pratik Prabhu</li>
+								<li>Sanjeet Saluja</li>
+							</ul>
+							
+							
+													
+						</div>
+					</div>
+
+					<!-- Footer Column -->
+					<div class="col-lg-2 footer_col">
+						<div class="footer_links">
+							<ul>Registration and Media:</ul><br>
+							<ul>
+								<li>Aman Daga</li>
+								<li>Mugdha Bhagwat</li>
+								<li>Benita Britto</li>
+								<li>Gaurav Mhatre</li>
+							</ul>
+
+							<br><br>
+							<br><br>
+							
+							<ul class="footer_links">Lecture Halls, Food and Photography:</ul><br>
+							<ul>
+								<li>Vishwadeep</li>
+								<li>Om Modi</li>
+								<li>Nayan Dhakre</li>
+								<li>Shivangi Tripathi</li>
+								<li>Nayan Dhakre</li>
+								<li>Jainam Shah</li>
+
+
+							</ul>
+						</div>
+					</div>
+
+
+					<div  class="footer_extra_left ml-lg-auto text-lg-Left">
 						<div class="footer_extra_links">
 							<br>
 
@@ -662,7 +741,6 @@
 <script src="js/custom.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
 <script src="js/gmaps.min.js"></script>
-<script src="js/theme.js"></script>
 <script src="js/gmaps_help.js"></script>
 <!-- <script type="text/javascript" src="js/nodes.js"></script> -->
 <script type="text/javascript" src="js/nodes.js"></script>
@@ -671,8 +749,10 @@
         id: 'nodes',
         width: window.innerWidth,
         height: $(document).height(),
-        backgroundFrom: [10, 25, 100],
-        backgroundTo: [25, 50, 150],
+        // backgroundFrom: [10, 25, 100],
+		// backgroundTo: [25, 50, 150],
+		 backgroundFrom: [10],
+		 backgroundTo: [15],
         backgroundDuration: 4000,
         number: window.hasOwnProperty('orientation') ? 30: 150,
         speed: 20
