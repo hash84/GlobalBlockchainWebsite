@@ -475,7 +475,7 @@ section
 .home
 {
 	width: 100%;
-	min-height: 100vh;
+	min-height: 850px;
 }
 .home_background
 {
@@ -492,9 +492,11 @@ section
 {
 	position: absolute;
 	left: 0;
-	top: 25%;
+	top: 30%;
 	width: 100%;
 	min-height: 50vh;
+	font-size: 18px;
+	
 }
 @media only screen and (max-width: 575px)
 {
@@ -1147,8 +1149,8 @@ section
 }
 .calendar_icon
 {
-	width: 27px;
-	height: 25px;
+	width: 30px;
+	height: 30px;
 }
 .calendar_icon img
 {
@@ -1177,11 +1179,18 @@ section
 {
 	margin-bottom: 35px;
 }
+.calendar_item_image2
+{
+	width: 103px;
+	height: 160px;
+	/*border-radius: 50%;*/
+	overflow: hidden;
+}
 .calendar_item_image
 {
 	width: 103px;
 	height: 103px;
-	border-radius: 50%;
+	/*border-radius: 50%;*/
 	overflow: hidden;
 }
 .calendar_item_image img
@@ -1196,14 +1205,14 @@ section
 {
 	font-size: 30px;
 	font-weight: 500;
-	color: #4c4c4c;
+	color: #000000;
 	line-height: 0.75;
 }
 .calendar_item_time div:last-child
 {
 	font-size: 14px;
 	font-weight: 500;
-	color: #4c4c4c;
+	color: #000000;
 	margin-top: 11px;
 }
 .calendar_item_text
@@ -1214,20 +1223,20 @@ section
 {
 	font-size: 18px;
 	font-weight: 500;
-	color: #4c4c4c;
+	color: #000000;
 }
 .calendar_item_text div:nth-child(2)
 {
 	font-size: 16px;
 	font-weight: 400;
-	color: #888888;
+	color: #000000;
 	margin-top: 2px;
 }
 .calendar_item_text div:last-child
 {
 	font-size: 14px;
 	font-weight: 400;
-	color: #888888;
+	color: #000000;
 	margin-top: 5px;
 }
 
