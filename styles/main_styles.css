@@ -836,7 +836,16 @@ section
 	width: 100%;
 	background: #FFFFFF;
 	padding-top: 115px;
-	padding-bottom: 67px;
+	padding-bottom: 5px;
+	padding-left: 144px;
+	padding-right: 144px;
+}
+.intro2
+{
+	width: 100%;
+	background: #FFFFFF;
+	padding-top: 5px;
+	padding-bottom: 25px;
 	padding-left: 144px;
 	padding-right: 144px;
 }
@@ -860,9 +869,11 @@ section
 }
 .intro_body
 {
-	padding-left: 39px;
+	padding-right: 19px;
+	padding-left: 19px;
 	padding-top: 33px;
-	padding-bottom: 39px;
+	padding-bottom: 33px;
+	text-align: center;
 }
 .intro_body::after
 {
@@ -895,6 +906,7 @@ section
 	font-weight: 500;
 	color: #4c4c4c;
 	z-index: 1;
+	text-align: center
 }
 .intro_item:hover .intro_title a,
 .intro_item:hover .intro_subtitle
