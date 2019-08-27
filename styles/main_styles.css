@@ -475,7 +475,8 @@ section
 .home
 {
 	width: 100%;
-	min-height: 1000px;
+	min-height: 700px;
+    max-height: 1000px;
 }
 .home_background
 {
@@ -492,7 +493,7 @@ section
 {
 	position: absolute;
 	left: 0;
-	top: 30%;
+	top: 23%;
 	width: 100%;
 	min-height: 50vh;
 	font-size: 18px;
